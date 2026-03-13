@@ -1,4 +1,4 @@
-package tast.java.ConditionCoverageTest;
+package test.java.ConditionCoverageTest;
 
 import main.java.BinarySearch;
 import org.junit.jupiter.api.Test;

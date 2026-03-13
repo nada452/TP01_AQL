@@ -1,0 +1,21 @@
+Rapport de TP AQL
+EOC : BELGHINI Nada
+Groupe : RSD
+
+EXO1:
+Deux bugs sont presents dans la boucle while de la methode isPalindrome :
+•j++ devrait etre j-- : le pointeur droit doit se deplacer vers la gauche
+•i-- devrait etre i++ : le pointeur gauche doit se deplacer vers la droite
+Effet: une StringIndexOutOfBoundsException est levee des le 2eme tour de boucle pour toute chaine de longueur superieure a 2.
+
+ EXO2:
+Un bug est present dans la boucle for de la methode isAnagram :
+•i <= s1.length() devrait etre i < s1.length()
+Effet : StringIndexOutOfBoundsException au dernier tour de boucle car l'indice i atteint une valeur invalide egale a la longueur de la chaine.
+
+EXO3:
+Un bug est present dans la condition de boucle while :
+•low < high devrait etre low <= high
+Consequence : quand low == high, le dernier element restant n'est jamais verifie. La methode retourne -1 a tort pour les tableaux a un element, et pour les elements en premiere ou derniere position.
+
+
