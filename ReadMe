@@ -18,4 +18,7 @@ Un bug est present dans la condition de boucle while :
 •low < high devrait etre low <= high
 Consequence : quand low == high, le dernier element restant n'est jamais verifie. La methode retourne -1 a tort pour les tableaux a un element, et pour les elements en premiere ou derniere position.
 
-
+Exo5
+Deux bugs sont presents dans la methode toRoman :
+•i <= symbols.length devrait etre i < symbols.length : provoque ArrayIndexOutOfBoundsException
+•n > values[i] devrait etre n >= values[i] : les valeurs exactes comme 1000 ou 1 ne sont jamais ajoutees au resultat
