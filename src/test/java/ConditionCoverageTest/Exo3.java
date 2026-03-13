@@ -1,6 +1,7 @@
 package test.java.ConditionCoverageTest;
 
 import main.java.BinarySearch;
+import main.java.BinarySearchCorrection;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

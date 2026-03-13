@@ -2,6 +2,7 @@ package test.java.LineCoverageTest;
 
 
 import main.java.QuadraticEquation;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

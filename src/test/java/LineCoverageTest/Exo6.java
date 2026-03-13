@@ -3,6 +3,8 @@ package test.java.LineCoverageTest;
 
 
 import main.java.FizzBuzz;
+import main.java.FizzBuzzCorrection;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

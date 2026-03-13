@@ -1,5 +1,6 @@
 package main.java;
-class PalindromeCorrection {
+
+public class PalindromeCorrection {
     public static boolean isPalindrome(String s) {
         if (s == null) {
             throw new NullPointerException("String must not be null");
@@ -11,8 +12,8 @@ class PalindromeCorrection {
             if (s.charAt(i) != s.charAt(j)) {
                 return false;
             }
-            j--; // CORRECTION (était j++)
-            i++; // CORRECTION (était i--)
+            i++;
+            j--;
         }
         return true;
     }

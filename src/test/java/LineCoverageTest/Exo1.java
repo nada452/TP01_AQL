@@ -1,6 +1,7 @@
 package test.java.LineCoverageTest;
 
 import main.java.Palindrome;
+import main.java.PalindromeCorrection;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

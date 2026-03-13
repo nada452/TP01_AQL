@@ -18,6 +18,9 @@ Un bug est present dans la condition de boucle while :
 •low < high devrait etre low <= high
 Consequence : quand low == high, le dernier element restant n'est jamais verifie. La methode retourne -1 a tort pour les tableaux a un element, et pour les elements en premiere ou derniere position.
 
+EXO4:
+le classe fourni est correcte
+
 Exo5:
 Deux bugs sont presents dans la methode toRoman :
 •i <= symbols.length devrait etre i < symbols.length : provoque ArrayIndexOutOfBoundsException
@@ -26,3 +29,6 @@ Deux bugs sont presents dans la methode toRoman :
  EXO6:
 Un bug logique est present dans la condition de garde :
 •n <= 1 devrait etre n <= 0 : n=1 est valide mais leve une IllegalArgumentException a tort
+
+
+En fin on ajoute les classe corrigées pour les tester ,et elles sont montres un coverage de 100%

@@ -3,6 +3,7 @@ package test.java.ConditionCoverageTest;
 
 
 import main.java.RomanNumeral;
+import main.java.RomanNumeralCorrection;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
